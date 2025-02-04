@@ -6,8 +6,6 @@ function setLanguage(languageCode) {
         .then(data => {
             const currentPage = window.location.pathname;
 
-            document.title = data.title || 'Pascal\'s Triangle';
-
             document.getElementById('selected-lang').textContent = data.language || 'Null';
             document.getElementById('selected-lang').style.setProperty('--flag-image', 'url(res/flags/' + languageCode + '.png)' || '#000');
             document.getElementById('navbar-committees').textContent = data.navbar_committees || 'Null';
