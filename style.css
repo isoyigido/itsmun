@@ -11,7 +11,7 @@
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 0, 160);
-    border: 3px, solid rgb(0, 0, 64);
+    border: 3px solid rgb(0, 0, 64);
     width: 8px;
     border-radius: 8px;
 }
@@ -38,53 +38,23 @@ html, body {
 
 html {
     background: beige;
-    /*border: 10px solid red;*/
 }
 
 body {
     background: beige;
     display: flex;
     flex-direction: column;
-    /*border: 10px solid green;*/
+    height: 100vh;
 }
 
-main {
-    min-height: calc(100vh - 100px);
+#index {
+    background-image: url(res/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-footer {
-    height: 100px;
-    background-color: navy;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-    border-radius: 32px;
-    font-size: 24px;
-}
-
-footer * {
-    color: beige;
-}
-
-footer span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-footer span a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-}
-
-footer img {
-    width: 32px;
-    height: 32px;
+#team {
+    background: linear-gradient(rgb(245, 245, 220), rgb(225, 225, 200));
 }
 
 nav {
@@ -206,12 +176,15 @@ nav * {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin: auto;
-    height: 80vh;
+    margin: 10vh auto;
+    height: 40vh;
     width: 80%;
     /* border: 3px solid green; */
     gap: 32px;
     padding: 32px 32px;
+    background: beige;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 32px;
 }
 
 .introduction img {
@@ -229,7 +202,8 @@ nav * {
     justify-content: center;
     gap: 4px;
     padding: 12px;
-    background-color: navy;
+    background-color: rgb(85, 0, 255);
+    box-shadow: 0px 0px 20px rgb(85, 0, 255), 0px 0px 40px black;
 }
 
 .countdown .block {
@@ -249,6 +223,35 @@ nav * {
     text-align: center;
     color: beige;
     font-size: 24px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card img {
+    border-radius: 16px;
+    height: 35vh;
+    width: auto;
+    cursor: pointer;
 }
 
 .text {
