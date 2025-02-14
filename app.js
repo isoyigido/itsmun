@@ -14,12 +14,9 @@ function setLanguage(languageCode) {
             document.getElementById('navbar-faq').textContent = data.navbar_faq || 'Null';
             document.getElementById('navbar-forms').textContent = data.navbar_forms || 'Null';
             
-//            if(currentPage === '/index.html' || currentPage === '/') {
-//                document.querySelector('.introduction .text').innerHTML = data.introduction_text || 'Null';
-//                document.querySelector('.text-container.history .text').innerHTML = data.history_text || 'Null';
-//                document.querySelector('.text-container.modelling .text').innerHTML = data.modelling_text || 'Null';
-//                document.querySelector('.text-container.quiz .text').innerHTML = data.quiz_text || 'Null';
-//            }
+            if(currentPage === '/index.html' || currentPage === '/') {
+                document.getElementById('contact-text').textContent = data.contact_text || 'Null';
+            }
             
         })
         .catch(error => {

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>ITSMUN</title>
     <link rel="icon" type="image/x-icon" href="res/logo_square.png">
@@ -35,46 +35,19 @@
             </nav>
         </header>
 
-        <div class="card-group">
-            <div class="card">
-                <img src="res/team/aca.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/exec.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/admin.jpg">
-            </div>
+        <div class="carousel">
+          <h1 id="left-arrow" onclick="increaseIndex(-1)">◀&nbsp;</h1>
+          <div class="image-container">
+            <img src="res/team/all.jpg">
+            <div class="overlay"></div>
+            <p>Our Team</p>
+          </div>
+          <h1 id="right-arrow" onclick="increaseIndex(1)">&nbsp;▶</h1>
         </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="res/team/press.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/pr.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/it.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/security.jpg">
-            </div>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="res/team/media.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/fat.jpg">
-            </div>
-            <div class="card">
-                <img src="res/team/ent.jpg">
-            </div>
-        </div>
-
     </main>
 
     <script src="app.js"></script>
+    <script src="carousel.js"></script>
 </body>
 
 </html>
