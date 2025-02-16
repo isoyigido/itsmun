@@ -525,6 +525,7 @@
         position: absolute;
         top: 64px;
         left: 0;
+        z-index: 9998;
     }
     
     .lang-menu:hover ul {
