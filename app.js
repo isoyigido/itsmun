@@ -1,3 +1,21 @@
+if (window.innerWidth <= 1000) {
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.querySelector("nav-phone .menu-icon");
+        const navbar = document.querySelector("nav-phone .navbar");
+    
+        menuIcon.addEventListener("click", function (event) {
+            event.stopPropagation(); // Prevents immediate closing when clicking the icon
+            navbar.classList.toggle("active");
+        });
+    
+        document.addEventListener("click", function (event) {
+            if (!navbar.contains(event.target) && !menuIcon.contains(event.target)) {
+                navbar.classList.remove("active"); // Close menu if clicked outside
+            }
+        });
+    });
+}
+
 function setLanguage(languageCode) {
     localStorage.setItem('language', languageCode);
 
