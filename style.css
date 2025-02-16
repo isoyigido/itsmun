@@ -961,14 +961,14 @@
     }
 
     .popup * {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .popup-content {
         background-color: beige;
         padding: 16px;
         border-radius: 16px;
-        width: 80%;
+        width: 85%;
         position: relative;
     }
     
