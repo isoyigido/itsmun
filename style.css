@@ -396,6 +396,26 @@
         font-weight: normal;
         font-style: normal;
     }
+
+    .application {
+        display: flex;
+        background-color: beige;
+        box-shadow: 0px 0px 16px navy;
+        margin: 16px 16px;
+        padding: 8px 8px;
+        width: auto;
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 16px;
+        text-decoration: none;
+    }
+
+    .application a {
+        color: red;
+        cursor: pointer;
+        font-size: 24px;
+        text-decoration: none;
+    }
 }
 
 @media only screen and (max-device-width: 1000px) {
@@ -602,31 +622,31 @@
         font-size: 16px;
     }
     
+    .navbar.active {
+        left: 0;
+    }
+
     footer {
-        margin: 8px;
+        margin: 12px;
         width: auto;
         height: auto;
         background-color: navy;
         display: flex;
         flex-direction: column;
-        padding: 8px;
-        border-radius: 32px;
-    }
-
-    .navbar.active {
-        left: 0;
+        padding: 4px;
+        border-radius: 16px;
     }
     
     footer span {
         display: flex;
         width: 100%;
-        margin: 10px 10px;
+        margin: 6px 6px;
         align-items: center;
     }
     
     footer * {
         color: beige;
-        font-size: 16px;
+        font-size: 12px;
     }
     
     footer span a {
@@ -636,8 +656,8 @@
     }
     
     footer img {
-        width: 32px;
-        height: 32px;
+        width: 16px;
+        height: 16px;
     }
     
     .introduction {
@@ -825,5 +845,24 @@
         color: beige;
         font-weight: normal;
         font-style: normal;
+    }
+    
+    .application {
+        display: flex;
+        background-color: beige;
+        box-shadow: 0px 0px 16px navy;
+        margin: 16px 16px;
+        padding: 8px 8px;
+        width: auto;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 16px;
+    }
+
+    .application a {
+        color: red;
+        cursor: pointer;
+        font-size: 12px;
+        text-decoration: none;
     }
 }
