@@ -57,9 +57,31 @@
         </header>
     </main>
 
-    <div class="coming-soon">Committees will be announced soon.</div>
+    <div class="committees">
+        <div class="card-group">
+            <img src="res/committees/CSW.jpg" id="card-image" data-committee="CSW">
+            <img src="res/committees/IMF.jpg" id="card-image" data-committee="IMF">
+            <img src="res/committees/UNSC.jpg" id="card-image" data-committee="UNSC">
+        </div>
+        <div class="card-group">
+            <div class="card"><img src="res/committees/EUMC.jpg" id="card-image" data-committee="EUMC"></div>
+            <div class="card"><img src="res/committees/CoEU.jpg" id="card-image" data-committee="CoEU"></div>
+            <div class="card"><img src="res/committees/HOC.jpg" id="card-image" data-committee="HOC"></div>
+        </div>
+        <div class="card-panorama"><img src="res/committees/CRISIS.jpg" id="card-image" data-committee="CRISIS"></div>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="popup-close" class="popup-close">&times;</span>
+                <h2 id="popup-title"></h2>
+                <p id="popup-description"></p>
+            </div>
+        </div>
+    </div>
+
 
     <script src="app.js"></script>
+    <script src="committee.js"></script>
 </body>
 
 </html>
