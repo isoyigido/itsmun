@@ -471,6 +471,19 @@
         font-size: 24px;
         cursor: pointer;
     }
+
+    .letter {
+        display: flex;
+        background-color: beige;
+        color: navy;
+        font-weight: bold;
+        font-size: 1.5vw;
+        margin: 10vh auto;
+        margin-top: 20vh;
+        padding: 1vw;
+        border-radius: 1vw;
+        width: 95%;
+    }
 }
 
 @media only screen and (max-device-width: 1000px) {
@@ -834,7 +847,7 @@
     
     .title {
         text-align: center;
-        font-size: 12vw;
+        font-size: 15vw;
         font-weight: 900;
         color: beige;
         margin-top: 20vh;
@@ -978,5 +991,18 @@
         right: 10px;
         font-size: 16px;
         cursor: pointer;
+    }
+
+    .letter {
+        display: flex;
+        background-color: beige;
+        color: navy;
+        font-weight: bold;
+        font-size: 2vh;
+        margin: 10vh auto;
+        margin-top: 20vh;
+        padding: 1vw;
+        border-radius: 1vw;
+        width: 95%;
     }
 }
