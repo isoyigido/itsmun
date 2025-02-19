@@ -13,5 +13,10 @@
     "app_2": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfoC9j0swrXmjb5M6d9Gi5At3ktCxgBxEonZUjXTl2Jaa1k1A/viewform\" target=\"_blank\">here</a>&nbsp;to apply as a delegete (nation-wide)",
     "app_3": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSePDfmtP0mUoCwsON9ZcVzPMBTW33TVnjLZ0oTf4S-1qWJJvw/viewform\" target=\"_blank\">here</a>&nbsp;to apply for delegation (Izmir only)",
     "app_4": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfj4_Mc_d2_9kqeqoz-mL3zYKXId3voRzPQPV7WhW08ZitJhw/viewform\" target=\"_blank\">here</a>&nbsp;to apply as an admin",
-    "app_5": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf8bwIn8xFqkE01-kXN9JkLS2EVMaYOBoTuxy4q2E7N3Unfqg/viewform\" target=\"_blank\">here</a>&nbsp;to apply as a press member"
+    "app_5": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf8bwIn8xFqkE01-kXN9JkLS2EVMaYOBoTuxy4q2E7N3Unfqg/viewform\" target=\"_blank\">here</a>&nbsp;to apply as a press member",
+
+    "form_1": "Click&nbsp;<a href=\"res/forms/KVKK.pdf\" target=\"_blank\">here</a>&nbsp;to view the KVKK Enlightenment Form",
+    "form_2": "Click&nbsp;<a href=\"res/forms/Consent.pdf\" target=\"_blank\">here</a>&nbsp;to view the Consent Form",
+    "form_3": "Click&nbsp;<a href=\"res/forms/ParentalConsent.pdf\" target=\"_blank\">here</a>&nbsp;to view the Parental Consent Form",
+    "form_4": "Click&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">here</a>&nbsp;to view the Individual Letter of Commitment Form"
 }

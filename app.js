@@ -46,6 +46,13 @@ function setLanguage(languageCode) {
                 document.getElementById('app-4').innerHTML = data.app_4 || 'Null';
                 document.getElementById('app-5').innerHTML = data.app_5 || 'Null';
             }
+
+            if (currentPage === '/forms.html') {
+                document.getElementById('form-1').innerHTML = data.form_1 || 'Null';
+                document.getElementById('form-2').innerHTML = data.form_2 || 'Null';
+                document.getElementById('form-3').innerHTML = data.form_3 || 'Null';
+                document.getElementById('form-4').innerHTML = data.form_4 || 'Null';
+            }
         })
         .catch(error => {
             console.error('Error loading language file:', error);
