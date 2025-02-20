@@ -36,6 +36,7 @@ function setLanguage(languageCode) {
             document.querySelectorAll('#navbar-forms').forEach(el => el.textContent = data.navbar_forms || 'Null');
 
             if (currentPage === '/index.html' || currentPage === '/') {
+                document.getElementById('date').textContent = data.date || 'Null';
                 document.querySelectorAll('#contact-text').forEach(el => el.textContent = data.contact_text || 'Null');
             }
             

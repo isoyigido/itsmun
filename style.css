@@ -340,6 +340,12 @@
         margin-top: 20vh;
         margin-bottom: 10vh;
     }
+
+    .title p {
+        font-size: 90px;
+        color: rgb(0, 0, 255);
+        text-shadow: 4px 4px rgb(0, 0, 128);
+    }
     
     .photos-phone {
         display: none;
@@ -852,6 +858,12 @@
         color: beige;
         margin-top: 20vh;
         margin-bottom: 10vh;
+    }
+
+    .title p {
+        font-size: 8vw;
+        color: rgb(0, 0, 255);
+        text-shadow: 1vw 1vw rgb(0, 0, 128);
     }
     
     .carousel {
