@@ -56,10 +56,87 @@
             </nav>
         </header>
 
-        <div class="coming-soon">Coming soon...</div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    How do I register to participate in Model UNs? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    You can register by going to the 'Applications' tab on this website.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What is Model United Nations (MUN)? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    Model United Nations (MUN) is an educational simulation where students represent different countries and engage in debates, negotiations, and decision-making to solve global issues. Participants act as delegates of their assigned countries in a variety of UN committees, following diplomatic rules and procedures to draft resolutions addressing specific topics.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What are the main skills developed in MUN? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <ul>
+                        <li>Public speaking</li>
+                        <li>Negotiation and diplomacy</li>
+                        <li>Research and analysis</li>
+                        <li>Problem-solving</li>
+                        <li>Critical thinking</li>
+                        <li>Collaboration and teamwork</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    How are awards given in MUN? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <ul>
+                        <li><strong>Best Delegate:</strong> Given to the most outstanding delegate in a committee.</li>
+                        <li><strong>Outstanding Delegate:</strong> Given to delegates who significantly contributed to debate.</li>
+                        <li><strong>Honorable Mention:</strong> Awarded to delegates who performed well.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    How can I prepare for my first MUN conference? <span class="icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <ol>
+                        <li><strong>Research:</strong> Study your assigned country, the topic, and your committee’s role.</li>
+                        <li><strong>Write a Position Paper:</strong> Draft a paper outlining your country’s stance.</li>
+                        <li><strong>Learn Rules of Procedure:</strong> Familiarize yourself with the specific rules of the conference.</li>
+                        <li><strong>Practice Public Speaking:</strong> Rehearse opening speeches and responses to questions.</li>
+                        <li><strong>Review Diplomacy Skills:</strong> Prepare to negotiate and build consensus.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="app.js"></script>
+    <script>
+        function toggleFAQ(element) {
+            let answer = element.nextElementSibling;
+            let icon = element.querySelector(".icon");
+    
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+                icon.textContent = "+";
+            } else {
+                answer.style.display = "block";
+                icon.textContent = "-";
+            }
+        }
+    </script>
 </body>
 
 </html>
