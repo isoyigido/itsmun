@@ -1,4 +1,4 @@
-const eventDate = new Date(2025, 3, 3, 9, 0, 0).getTime(); // March 10, 2025, 09:00 AM
+const eventDate = new Date(2025, 5, 18, 9, 0, 0).getTime(); // March 10, 2025, 09:00 AM
 
 function updateCountdown() {
     const now = new Date().getTime();
