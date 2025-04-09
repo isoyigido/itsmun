@@ -16,6 +16,8 @@
     "app_4": "Admin olarak başvurmak için&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfj4_Mc_d2_9kqeqoz-mL3zYKXId3voRzPQPV7WhW08ZitJhw/viewform\" target=\"_blank\">buraya</a>&nbsp;tıklayınız",
     "app_5": "Basın üyesi olarak başvurmak için&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf8bwIn8xFqkE01-kXN9JkLS2EVMaYOBoTuxy4q2E7N3Unfqg/viewform\" target=\"_blank\">buraya</a>&nbsp;tıklayınız",
 
+    "app_temp": "Başvurular 14 Nisan'a kadar geçici olarak kapalıdır.",
+
     "form_1": "KVKK Aydınlatma Metnini görüntülemek için&nbsp;<a href=\"res/forms/KVKK.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
     "form_2": "Açık Rıza Onayı formunu görüntülemek için&nbsp;<a href=\"res/forms/Consent.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
     "form_3": "Veli İzin Belgesini görüntülemek için&nbsp;<a href=\"res/forms/ParentalConsent.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",

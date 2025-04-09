@@ -40,12 +40,18 @@ function setLanguage(languageCode) {
                 document.querySelectorAll('#contact-text').forEach(el => el.textContent = data.contact_text || 'Null');
             }
             
+            /*
             if (currentPage === '/applications.html') {
                 document.getElementById('app-1').innerHTML = data.app_1 || 'Null';
                 document.getElementById('app-2').innerHTML = data.app_2 || 'Null';
                 document.getElementById('app-3').innerHTML = data.app_3 || 'Null';
                 document.getElementById('app-4').innerHTML = data.app_4 || 'Null';
                 document.getElementById('app-5').innerHTML = data.app_5 || 'Null';
+            }
+            */
+
+            if (currentPage === '/applications.html') {
+                document.getElementById('app-temp').innerHTML = data.app_temp || 'Null';
             }
 
             if (currentPage === '/forms.html') {
