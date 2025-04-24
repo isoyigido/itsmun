@@ -43,6 +43,7 @@ function setLanguage(languageCode) {
             
             if (currentPage === '/applications.html') {
                 document.getElementById('app').innerHTML = data.app || 'Null';
+                document.getElementById('app-new').innerHTML = data.app_new || 'Null';
             }
 
             if (currentPage === '/forms.html') {
