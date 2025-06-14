@@ -6,14 +6,18 @@
     "navbar_applications": "Başvurular",
     "navbar_faq": "SSS",
     "navbar_forms": "Yasal Formlar",
+    "navbar_guides": "Rehberler",
 
     "date": "18-19-20 Haziran",
     "contact_text": "Bize ulaşın:",
 
-    "app": "Delege olarak başvurmak için&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfoC9j0swrXmjb5M6d9Gi5At3ktCxgBxEonZUjXTl2Jaa1k1A/viewform\" target=\"_blank\">buraya</a>&nbsp;tıklayınız",
+    "app": "Başvurular kapanmıştır.",
 
     "form_1": "KVKK Aydınlatma Metnini görüntülemek için&nbsp;<a href=\"res/forms/KVKK.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
     "form_2": "Açık Rıza Onayı formunu görüntülemek için&nbsp;<a href=\"res/forms/Consent.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
     "form_3": "Veli İzin Belgesini görüntülemek için&nbsp;<a href=\"res/forms/ParentalConsent.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
-    "form_4": "Bireysel Taahhütnameyi görüntülemek için&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın"
+    "form_4": "Bireysel Taahhütnameyi görüntülemek için&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">buraya</a>&nbsp;tıklayın",
+
+    "enter_password": "Komiteniz için verilen şifreyi girin:",
+    "submit": "Gönder"
 }

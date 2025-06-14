@@ -6,14 +6,18 @@
     "navbar_applications": "Applications",
     "navbar_faq": "FAQ",
     "navbar_forms": "Legal Forms",
+    "navbar_guides": "Guides",
 
     "date": "18-19-20th of June",
     "contact_text": "Contact us:",
 
-    "app": "Click&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfoC9j0swrXmjb5M6d9Gi5At3ktCxgBxEonZUjXTl2Jaa1k1A/viewform\" target=\"_blank\">here</a>&nbsp;to apply as a delegate",
+    "app": "Applications are closed.",
 
     "form_1": "Click&nbsp;<a href=\"res/forms/KVKK.pdf\" target=\"_blank\">here</a>&nbsp;to view the KVKK Enlightenment Form",
     "form_2": "Click&nbsp;<a href=\"res/forms/Consent.pdf\" target=\"_blank\">here</a>&nbsp;to view the Consent Form",
     "form_3": "Click&nbsp;<a href=\"res/forms/ParentalConsent.pdf\" target=\"_blank\">here</a>&nbsp;to view the Parental Consent Form",
-    "form_4": "Click&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">here</a>&nbsp;to view the Individual Letter of Commitment Form"
+    "form_4": "Click&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">here</a>&nbsp;to view the Individual Letter of Commitment Form",
+
+    "enter_password": "Enter the password provided for your committee:",
+    "submit": "Submit"
 }

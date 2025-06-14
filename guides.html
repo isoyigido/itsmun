@@ -20,8 +20,8 @@
                         <li><a href="team.html" id="navbar-team">Our Team</a></li>
                         <li><a href="applications.html" id="navbar-applications">Applications</a></li>
                         <li><a href="faq.html" id="navbar-faq">FAQ</a></li>
-                        <li><a href="forms.html" id="navbar-forms" style="color: aqua; text-decoration: underline;">Legal Forms</a></li>
-                        <li><a href="guides.html" id="navbar-guides">Guides</a></li>
+                        <li><a href="forms.html" id="navbar-forms">Legal Forms</a></li>
+                        <li><a href="guides.html" id="navbar-guides" style="color: aqua; text-decoration: underline;">Guides</a></li>
                     </ul>
                 </div>
                 
@@ -42,8 +42,8 @@
                         <li><a href="team.html" id="navbar-team">Our Team</a></li>
                         <li><a href="applications.html" id="navbar-applications">Applications</a></li>
                         <li><a href="faq.html" id="navbar-faq">FAQ</a></li>
-                        <li><a href="forms.html" id="navbar-forms" style="color: aqua; text-decoration: underline;">Legal Forms</a></li>
-                        <li><a href="guides.html" id="navbar-guides">Guides</a></li>
+                        <li><a href="forms.html" id="navbar-forms">Legal Forms</a></li>
+                        <li><a href="guides.html" id="navbar-guides" style="color: aqua; text-decoration: underline;">Guides</a></li>
                     </ul>
                 </div>
                 <a href='index.html'><img src="res/logo.png" class="logo"></a>
@@ -58,13 +58,19 @@
             </nav>
         </header>
 
-        <div class="application" id="form-1">Click&nbsp;<a href="res/forms/KVKK.pdf" target="_blank">here</a>&nbsp;to view the KVKK Enlightenment Form</div>
-        <div class="application" id="form-2">Click&nbsp;<a href="res/forms/Consent.pdf" target="_blank">here</a>&nbsp;to view the Consent Form</div>
-        <div class="application" id="form-3">Click&nbsp;<a href="res/forms/ParentalConsent.pdf" target="_blank">here</a>&nbsp;to view the Parental Consent Form</div>
-        <div class="application" id="form-4">Click&nbsp;<a href="res/forms/IndividualLetterOfCommitment.pdf" target="_blank">here</a>&nbsp;to view the Individual Letter of Commitment Form</div>
+        <div id="password-input">
+            <h2 id="enter-password">Enter the password provided for your committee:</h2>
+            <input type="password" id="password">
+            <button onclick="checkPassword()" id="submit">Submit</button>
+        </div>
+
+        <div id="protected-content">
+
+        </div>
     </main>
 
     <script src="app.js"></script>
+    <script src="auth.js"></script>
 </body>
 
 </html>

@@ -6,14 +6,18 @@
     "navbar_applications": "Bewerbungen",
     "navbar_faq": "FAQ",
     "navbar_forms": "Formulare",
+    "navbar_guides": "Leitfäden",
 
     "date": "18-19-20. Juni",
     "contact_text": "Kontakt:",
 
-    "app": "Klicken Sie&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfoC9j0swrXmjb5M6d9Gi5At3ktCxgBxEonZUjXTl2Jaa1k1A/viewform\" target=\"_blank\">hier</a>,&nbsp;um sich als Delegierter zu bewerben",
+    "app": "Bewerbungen sind geschlossen.",
     
     "form_1": "Klicken Sie&nbsp;<a href=\"res/forms/KVKK.pdf\" target=\"_blank\">hier</a>,&nbsp;um das KVKK-Aufklärungsformular anzusehen",
     "form_2": "Klicken Sie&nbsp;<a href=\"res/forms/Consent.pdf\" target=\"_blank\">hier</a>,&nbsp;um das Einwilligungsformular anzusehen",
     "form_3": "Klicken Sie&nbsp;<a href=\"res/forms/ParentalConsent.pdf\" target=\"_blank\">hier</a>,&nbsp;um das Einverständnisformular der Eltern anzusehen",
-    "form_4": "Klicken Sie&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">hier</a>,&nbsp;um das Individuelle Verpflichtungsschreiben anzusehen"
+    "form_4": "Klicken Sie&nbsp;<a href=\"res/forms/IndividualLetterOfCommitment.pdf\" target=\"_blank\">hier</a>,&nbsp;um das Individuelle Verpflichtungsschreiben anzusehen",
+
+    "enter_password": "Geben Sie das für Ihr Komitee bereitgestellte Passwort ein:",
+    "submit": "Senden"
 }

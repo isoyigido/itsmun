@@ -34,6 +34,7 @@ function setLanguage(languageCode) {
             document.querySelectorAll('#navbar-applications').forEach(el => el.textContent = data.navbar_applications || 'Null');
             document.querySelectorAll('#navbar-faq').forEach(el => el.textContent = data.navbar_faq || 'Null');
             document.querySelectorAll('#navbar-forms').forEach(el => el.textContent = data.navbar_forms || 'Null');
+            document.querySelectorAll('#navbar-guides').forEach(el => el.textContent = data.navbar_guides || 'Null');
 
             if (currentPage === '/index.html' || currentPage === '/') {
                 document.getElementById('date').textContent = data.date || 'Null';
@@ -50,6 +51,11 @@ function setLanguage(languageCode) {
                 document.getElementById('form-2').innerHTML = data.form_2 || 'Null';
                 document.getElementById('form-3').innerHTML = data.form_3 || 'Null';
                 document.getElementById('form-4').innerHTML = data.form_4 || 'Null';
+            }
+
+            if (currentPage === '/guides.html') {
+                document.getElementById('enter-password').innerHTML = data.enter_password || 'Null';
+                document.getElementById('submit').innerHTML = data.submit || 'Null';
             }
         })
         .catch(error => {
